@@ -1,0 +1,87 @@
+body {
+    background-image: url(img/montanha-nova.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100%;   ---- essa propriedade deixa 100% da página que está sendo visualizada, quando diminui ela fica ruim */
+    background-size: 100vw 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    /*height:50vh;*/
+    background-color: hsla(10, 100%, 100%, 0.4);
+    border-radius: 50px;
+    /* box-shadow: 1px 1px 10px hsl(210, 100%, 50%); */
+    width: 300px;
+    height: 350px;
+    padding-bottom: 20px;
+    border: solid 1px black;
+    /* margin: auto; */
+    position: absolute;
+    right: 70px;
+    top: 90px;
+    text-align: center;
+}
+
+img {
+    background: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 90px;
+}
+
+#img2 {
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 180px;
+}
+
+
+article {
+    margin: 0px;
+    padding: 0px;
+    color: hsla(60, 100%, 100%, 0.8);
+    width: 600px;
+    height: 100px;
+    font: italic 35pt helvetica;
+    position: absolute;
+    left: 160px;
+    top: 30px;
+}
+
+#confirmar {
+    font: normal 13pt arial;
+    background: transparent;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+p {
+    font: normal 18pt helvetica;
+}
+
+#email {
+    border-radius: 10px;
+}
+
+#numb {
+    border-radius: 10px;
+}
+
+#h1pgn2 {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    font: italic 20pt san-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+}
