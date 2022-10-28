@@ -10,7 +10,7 @@ body {
 div {
     /*height:50vh;*/
     background-color: hsla(10, 100%, 100%, 0.4);
-    border-radius: 50px;
+    border-radius: 30px;
     /* box-shadow: 1px 1px 10px hsl(210, 100%, 50%); */
     width: 300px;
     height: 350px;
@@ -21,6 +21,17 @@ div {
     right: 70px;
     top: 90px;
     text-align: center;
+    animation:slides;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+}
+@keyframes slides{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 img {
