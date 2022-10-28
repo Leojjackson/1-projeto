@@ -6,6 +6,19 @@ body {
     padding: 0px;
     margin: 0px;
 }
+#txt-tela{
+    animation: slide;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes slide{
+    from{
+        transform: translateX(-150%);
+    }
+    to{
+        transform: translateX(-0%);
+    }
+}
 
 div {
     /*height:50vh;*/
