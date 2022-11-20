@@ -78,7 +78,9 @@ article {
     left: 160px;
     top: 30px;
 }
-
+#email,#senha{
+    border-radius: 10px;;
+}
 #confirmar {
     font: normal 13pt arial;
     background: transparent;
