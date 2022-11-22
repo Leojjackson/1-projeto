@@ -6,16 +6,19 @@ body {
     padding: 0px;
     margin: 0px;
 }
-#txt-tela{
+
+#txt-tela {
     animation: slide;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
-@keyframes slide{
-    from{
+
+@keyframes slide {
+    from {
         transform: translateX(-150%);
     }
-    to{
+
+    to {
         transform: translateX(-0%);
     }
 }
@@ -25,7 +28,7 @@ div {
     background-color: hsla(10, 100%, 100%, 0.4);
     border-radius: 30px;
     /* box-shadow: 1px 1px 10px hsl(210, 100%, 50%); */
-    width: 300px;
+    width: 400px;
     height: 350px;
     padding-bottom: 20px;
     border: solid 1px black;
@@ -34,15 +37,17 @@ div {
     right: 70px;
     top: 90px;
     text-align: center;
-    animation:slides;
+    animation: slides;
     animation-duration: 3s;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
 }
-@keyframes slides{
-    from{
+
+@keyframes slides {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
@@ -78,9 +83,13 @@ article {
     left: 160px;
     top: 30px;
 }
-#email,#senha{
-    border-radius: 10px;;
+
+#email,
+#senha {
+    border-radius: 10px;
+    ;
 }
+
 #confirmar {
     font: normal 13pt arial;
     background: transparent;
@@ -97,9 +106,6 @@ p {
     border-radius: 10px;
 }
 
-#h1pgn2 {
-    text-align: center;
-}
 
 footer {
     color: white;
