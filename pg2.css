@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    padding-top:120px;
+    padding-left:25px;
+}
+header{
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    height:695px;
+    width:100px;
+
+}
+main{
+    width:900px;
+    height:200px;
+    background-color:pink;
+    position: absolute;
+    right: 100px;
+    top:200px;
+}
