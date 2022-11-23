@@ -3,17 +3,18 @@
     padding:0px;
 }
 li{
+    font: 15pt italic arial;
     display: flex;
     flex-direction: row;
     padding-top:120px;
-    padding-left:25px;
+    padding-left:10px;
 }
 header{
     background-color:blue;
     display: flex;
     flex-direction: column;
     height:695px;
-    width:100px;
+    width:80px;
 
 }
 main{
