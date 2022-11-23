@@ -27,7 +27,7 @@ div {
     /*height:50vh;*/
     background-color: hsla(10, 100%, 100%, 0.4);
     border-radius: 30px;
-    /* box-shadow: 1px 1px 10px hsl(210, 100%, 50%); */
+    box-shadow: 1px 1px 10px hsl(0, 100%, 0%);
     width: 400px;
     height: 350px;
     padding-bottom: 20px;
