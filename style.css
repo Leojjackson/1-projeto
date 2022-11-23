@@ -84,8 +84,7 @@ article {
     top: 30px;
 }
 
-#email,
-#senha {
+#email,#senha {
     border-radius: 10px;
     ;
 }
