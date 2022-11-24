@@ -16,8 +16,20 @@ header{
     position:fixed;
     height:695px;
     width:80px;
+    animation:slide;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 
 }
+@keyframes slide {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
+
 main{
     background-image:url(img/logo.jpg);
     /* background-position: center; */
@@ -31,7 +43,7 @@ main{
     top:200px;
 }
 article{
-    width:400px;
+    width:500px;
     position: absolute;
     left:150px;
     top:200px;
