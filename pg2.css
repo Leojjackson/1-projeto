@@ -10,7 +10,7 @@ li{
     padding-left:10px;
 }
 header{
-    background-color:blue;
+    background-color:#cbf;
     display: flex;
     flex-direction: column;
     position:fixed;
@@ -19,10 +19,20 @@ header{
 
 }
 main{
-    width:900px;
-    height:200px;
+    background-image:url(img/logo.jpg);
+    /* background-position: center; */
+    background-position: center;
+    background-repeat: no-repeat;  
+    width:500px;
+    height:400px;
     background-color:pink;
     position: absolute;
     right: 100px;
+    top:200px;
+}
+article{
+    width:400px;
+    position: absolute;
+    left:150px;
     top:200px;
 }
