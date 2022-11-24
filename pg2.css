@@ -7,10 +7,15 @@ li{
     display: flex;
     flex-direction: row;
     padding-top:120px;
-    padding-left:10px;
+    padding-left:8px;
 }
+li:hover{
+    opacity:0.3;
+}
+/* Menu lateral */
 header{
-    background-color:#cbf;
+    background-color:black;
+    color:#fff;
     display: flex;
     flex-direction: column;
     position:fixed;
@@ -29,7 +34,7 @@ header{
         transform:translateX(0px);
     }
 }
-
+/* --------------------------------- */
 main{
     background-image:url(img/logo.jpg);
     /* background-position: center; */
