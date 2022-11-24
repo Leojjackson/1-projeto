@@ -35,6 +35,8 @@ header{
     }
 }
 /* --------------------------------- */
+
+/* Imagem da logo */
 main{
     background-image:url(img/logo.jpg);
     /* background-position: center; */
@@ -46,7 +48,21 @@ main{
     position: absolute;
     right: 100px;
     top:200px;
+    border-radius: 10px;
+    animation:direita;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
 }
+@keyframes direita{
+    from{
+        transform:translateY(-500px)
+    }
+    to{
+
+    }
+}
+
+/* ---------------------------------- */
 article{
     width:500px;
     position: absolute;
