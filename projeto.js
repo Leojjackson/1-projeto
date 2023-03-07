@@ -9,4 +9,7 @@ function clicar(){
         console.log("worked...")
 
     }
+    else{
+        console.log("didn't...")
+    }
 }
