@@ -10,6 +10,6 @@ function clicar(){
 
     }
     else{
-        console.log("didn't...")
+        console.log("didn't work")
     }
 }
