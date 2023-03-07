@@ -1,10 +1,10 @@
-let ema = document.getElementById('email');
-let se = document.getElementById('senha');
-let email = ema.Value;
-let senha = se.value;
 function clicar()
 {
-    if(email == 'leojjackson@outlook.com' || email == 'leojjackson87@gmail.com')
+    let confirmar = document.querySelector("#confirmar")
+    let ema = document.getElementById('#email');
+    let senha = document.getElementById('#senha');
+    let email = (email.value);
+    if(ema == 'leojjackson@outlook.com' || ema == 'leojjackson87@gmail.com')
     {
         console.log("worked...")
     }
