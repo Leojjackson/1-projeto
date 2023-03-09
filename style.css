@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 body {
     background-image: url(img/montanha-nova.jpg);
     background-repeat: no-repeat;
@@ -98,9 +99,10 @@ article {
 }
 
 p {
-    font: normal 18pt arial helvetica;
+     font-size: 18pt;
+     font-family: 'Rubik';
+ 
 }
-
 
 #numb {
     border-radius: 10px;
