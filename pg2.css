@@ -70,6 +70,7 @@ main{
 /* ---------------------------------- */
 article{
     width:500px;
+    height: 300px;
     position: absolute;
     left:150px;
     top:200px;
