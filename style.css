@@ -94,10 +94,16 @@ article {
 #confirmar {
     width:80px;
     font: normal 13pt arial;
-    background: transparent;
+    /* background: transparent; */
     border: solid 1px black;
     border-radius: 30px;
-    transition:rgb(71, 71, 71) ease-in-out 0.3s;
+}
+#confirmar:hover{
+    transition: #000 0.3s;
+}
+input{
+    width:250px;
+    margin: auto;
 }
 
 p {
