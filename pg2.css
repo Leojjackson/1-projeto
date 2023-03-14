@@ -3,8 +3,10 @@
     padding:0px;
 }
 body{
-    background-color: #ccc;
+   background-color: #3a3a3a;
+   color:#fff;
 }
+
 li{
     font: 15pt italic arial;
     display: flex;
@@ -17,7 +19,7 @@ li:hover{
 }
 /* Menu lateral */
 header{
-    background-color:black;
+    background-color:#3a3a3a;
     color:#fff;
     display: flex;
     flex-direction: column;
