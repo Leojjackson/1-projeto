@@ -96,12 +96,12 @@ article {
 #confirmar {
     width:80px;
     font: normal 13pt arial;
-    /* background: transparent; */
     border: solid 1px black;
     border-radius: 30px;
+    transition:all ease-in 0.3s;
 }
 #confirmar:hover{
-    transition: #000 0.3s;
+    background-color:rgb(104, 103, 103) ;
 }
 input{
     width:250px;
