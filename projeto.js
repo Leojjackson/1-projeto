@@ -6,10 +6,12 @@ function clicar(){
 
     if(email.value == "leojjackson@outlook.com" && senha.value == 123456){
         
-        console.log("worked...")
+        window.location = "http://127.0.0.1:5500/pagina2.html";
+
+        console.log("worked...");
     }
     else{
-        window.location = "http://127.0.0.1:5500/pagina2.html"
+        alert(" [ERROR] Usuario desconhecido")
         console.log("didn't work")
     }
 }
