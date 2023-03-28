@@ -3,9 +3,9 @@ class Cadastro {
     let senha = document.querySelector("#senha");
     let email = document.querySelector("#email");
     let obj = {}
-    console.log(obj);
     obj.Email = document.querySelector("#email").value;
     obj.Senha =  document.querySelector("#senha").value;
+    console.log(obj);
     
     if(email.value == "leojjackson@outlook.com" && senha.value == 123456){
         
