@@ -14,8 +14,9 @@ class Cadastro {
     }else{
         alert(" [ERROR] Usuario desconhecido")
         console.log("didn't work")
-        document.querySelector("#email").value = "";
-        document.querySelector("#senha").value = "";
+        document.querySelector("#email").value = email.value;
+        document.querySelector("#senha").value = senha.value;
+        email.focus();
     }
 }
 }
