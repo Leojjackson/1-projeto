@@ -7,10 +7,9 @@ class Cadastro {
     obj.Senha =  document.querySelector("#senha").value;
     console.log(obj);
     
-    if(email.value == "leojjackson@outlook.com" && senha.value == 'Jesus980'){
+    if(email.value == "" && senha.value == '123'){
         
-        window.location =  "http://127.0.0.1:5500/pagina2.html";
-
+        window.location =  "http://127.0.0.1:5500/pagina2.html"; // http:// é importante para abrir em um site válido.
     }else{
         alert(" [ERROR] Usuario desconhecido")
         console.log("didn't work")
