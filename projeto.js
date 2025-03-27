@@ -7,7 +7,7 @@ class Cadastro {
     obj.Senha =  document.querySelector("#senha").value;
     console.log(obj);
     
-    if(email.value == "leojjackson@outlook.com" && senha.value == 123456){
+    if(email.value == "leojjackson@outlook.com" && senha.value == 980882629){
         
         window.location =  "http://127.0.0.1:5500/pagina2.html";
 
