@@ -24,7 +24,7 @@ let cadastro = new Cadastro();
 let btnVoltar = document.getElementById('btnVoltar')
 
 function voltar() {
-
+    
     window.location = 'http://127.0.0.1:5500/index.html';
-
+    
 }

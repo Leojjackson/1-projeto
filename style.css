@@ -24,10 +24,6 @@ body {
     }
 }
 
-#btnVoltar {
-    display: flex;
-}
-
 div {
     /*height:50vh;*/
     background-color: hsla(10, 100%, 100%, 0.4);

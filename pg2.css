@@ -75,3 +75,16 @@ article{
     left:150px;
     top:200px;
 }
+
+button {
+    
+    position: absolute;
+    left:40%;
+    top:60px;
+    border-radius: 10px;
+    padding: 10px;
+    font: 25pt arial red;
+}
+button:hover {
+    background-color: red;
+}
