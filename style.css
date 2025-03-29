@@ -8,7 +8,7 @@ body {
     margin: 0px;
 }
 
-#txt-tela {
+#txt-tela {  /* H1 */
     animation: slide;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -22,6 +22,10 @@ body {
     to {
         transform: translateX(-0%);
     }
+}
+
+#btnVoltar {
+    display: flex;
 }
 
 div {
